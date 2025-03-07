@@ -1,29 +1,29 @@
 const fs = require('node:fs');
 
 const config = {
-    owner: ["6283136099660"],
-    name: "ʜᴀɴᴀᴋᴏ-ᴋᴜɴ-ʙᴏᴛᴢ",
-    ownername: 'ʟᴇᴏᴏxᴢʏ', 
-    ownername2: 'ᴅᴇᴋᴜ',
+    owner: ["6282244004772"],
+    name: "ɴᴀɢɪ ꜱᴇɪꜱʜɪʀᴏ-ʙᴏᴛᴢᴢ",
+    ownername: 'Hiroshi', 
+    ownername2: 'Hiroshi',
     prefix: [".", "?", "!", "/", "#"], //Tambahin sendiri prefix nya kalo kurang
-    wwagc: 'https://chat.whatsapp.com/JyeT1hdCPJeLy95tzx5eyI',
-    saluran: '120363279195205552@newsletter', 
-    jidgroupnotif: '120363266755712733@g.us', 
-    saluran2: '120363335701540699@newsletter', 
-    jidgroup: '120363267102694949@g.us', 
-    wach: 'https://whatsapp.com/channel/0029VadFS3r89inc7Jjus03W', 
+    wwagc: 'https://chat.whatsapp.com/JyeT',
+    saluran: '12036327919520@newsletter', 
+    jidgroupnotif: '12036355712733@g.us', 
+    saluran2: '120363335740699@newsletter', 
+    jidgroup: '12036326694949@g.us', 
+    wach: 'https://whatsapp.com/channel/0029VS3rnc7Jjus03W', 
     sessions: "sessions",
     sticker: {
-      packname: "〆 ʜᴀɴᴀᴋᴏ-ᴋᴜɴ-ʙᴏᴛᴢ",
-      author: "ʙʏ: ᴅᴇᴋᴜ/ʟᴇᴏᴏxᴢʏ 〆"
+      packname: "",
+      author: ""
     },
    messages: {
-      wait: "*( Loading )* Tunggu Sebentar...",
-      owner: "*( Denied )* Kamu bukan owner ku !",
-      premium: "*( Denied )* Fitur ini khusus user premium",
-      group: "*( Denied )* Fitur ini khusus group",
-      botAdmin: "*( Denied )* Lu siapa bukan Admin group",
-      grootbotbup: "*( Denied )* Jadiin Yuta-Botz admin dulu baru bisa akses",
+      wait: "tunggu sebentar ya bre",
+      owner: "lu bukan owner bot",
+      premium: "fitur ini khusus user premium",
+      group: "fitur ini khusus group",
+      botAdmin: "lu siapa bre? sadar ga si lu kalo lu bukan admin group",
+      grootbotbup: "jadikan bot admin dulu baru bisa akses",
    },
    database: "hanako-db",
    tz: "Asia/Jakarta"
