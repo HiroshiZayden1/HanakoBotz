@@ -5,10 +5,10 @@ async function all(m) {
     if (current.getHours() === 0 && current.getMinutes() === 0) {
       let list = Object.entries(db.default().user);
       list.forEach(([user, data]) => {
-        data.limit = 100; //sesuaikan dengan limit yang dibutuhkan
+        data.limit = 100000; //sesuaikan dengan limit yang dibutuhkan
       });
       
-      console.log('Limit user berhasil direset pada', current);
+      console.log('limit user berhasil direset pada', current);
     }
   }
 
