@@ -111,23 +111,23 @@
 ⣿⣿⡟⣿⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃ ⢰⡿⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟  ⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏ ⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-Welcome to Script HanakoBotz / Dxyz - Lxzy`))
-    console.log(chalk.blue.bold(`By: Dxyz - Lxyz`))
+Welcome to Script Nagi Seishiro Bot / Hiroshi`))
+    console.log(chalk.blue.bold(`By: Hiroshi`))
 
-    console.log(chalk.yellow.bold("📁 Inisialisasi modul..."));
-    console.log(chalk.cyan.bold("- API Baileys Telah Dimuat"));
-    console.log(chalk.cyan.bold("- Sistem File Siap Digunakan"));
-    console.log(chalk.cyan.bold("- Database Telah Diinisialisasi"));
+    console.log(chalk.yellow.bold("📁 inisialisasi modul..."));
+    console.log(chalk.cyan.bold("- API baileys telah dimuat"));
+    console.log(chalk.cyan.bold("- sistem file siap digunakan"));
+    console.log(chalk.cyan.bold("- database telah diinisialisasi"));
 
-    console.log(chalk.blue.bold("\n🤖 Info Bot:"));
+    console.log(chalk.blue.bold("\n🤖 info bot:"));
     console.log(chalk.white.bold("  | GitHub: ") + chalk.cyan.bold("https://github.com/LeooxzyDekuu"));
-    console.log(chalk.white.bold("  | Developer: ") + chalk.green.bold("Leooxzy/Deku"));
+    console.log(chalk.white.bold("  | Developer: ") + chalk.green.bold("Hiroshi"));
     console.log(chalk.white.bold("  | Base Script: ") + chalk.green.bold("AxellNetwork"));
     console.log(chalk.white.bold("  | Status Server: ") + chalk.green.bold("Online"));
     console.log(chalk.white.bold("  | Versi: ") + chalk.magenta.bold(pkg.version));
     console.log(chalk.white.bold("  | Versi Node.js: ") + chalk.magenta.bold(process.version));
 
-    console.log(chalk.blue.bold("\n🔁 Memuat plugin dan scraper dan case..."))
+    console.log(chalk.blue.bold("\n🔁 memuat plugin dan scraper dan case..."))
 
     async function system() {
         const {
@@ -150,11 +150,11 @@ Welcome to Script HanakoBotz / Dxyz - Lxzy`))
         if (!sock.authState.creds.registered) {
             console.log(
                 chalk.white.bold(
-                    "- Silakan masukkan nomor WhatsApp Anda, misalnya +628xxxx",
+                    "- Silakan masukkan nomor WhatsApp Anda, misalnya 628xxxx",
                 ),
             );
             const phoneNumber = await question(chalk.green.bold(`– Nomor Anda: `));
-            const code = await sock.requestPairingCode(phoneNumber, "LEOODEKU")
+            const code = await sock.requestPairingCode(phoneNumber, "HIROOOFC")
             setTimeout(() => {
                 console.log(chalk.white.bold("- Kode Pairing Anda: " + code));
             }, 3000);
