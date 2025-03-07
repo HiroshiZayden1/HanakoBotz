@@ -62,7 +62,7 @@ module.exports = async (m, sock, store) => {
     let time = moment.tz(config.tz).format("HH:mm");
     if (db.list().settings.resetlimit == time) {
       for (let i of user) {
-        db.list().user[i].limit = 100;
+        db.list().user[i].limit = 100000;
       }
     }
   });
@@ -144,9 +144,9 @@ module.exports = async (m, sock, store) => {
         })
           .then(async (a) => {
             if (plugin?.settings?.limit && !isPrems && !m.isOwner) {
-              db.list().user[m.sender].limit -= 1;
+              db.list().user[m.sender].limit -= 1000;
               m.reply(
-                `${Func.Styles(`*( ${config.name} )* Limit Anda Berkurang 1 \n\n> *( ${config.name} )* Kalau Limit Nya Abis Nunggu 24jam`)}`,
+                `${Func.Styles(`*( ${config.name} )* limit anda berkurang 1 \n\n> *( ${config.name} )* kalau limit nya abis nunggu 24jam`)}`,
               );
             }
           });
