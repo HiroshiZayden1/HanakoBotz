@@ -104,7 +104,7 @@ ${matches.map((a, i) => `│    =〆 ${m.prefix + a}`).join("\n")}`);
 
     m.reply({
         video: {
-            url: "https://files.catbox.moe/f1l5ij.mp4"
+            url: "https://files.catbox.moe/t9j426.mp4"
         },
         caption: caption,
         gifPlayback: true,
@@ -134,7 +134,7 @@ deku.command = "allmenu"
 deku.alias = ["menuall"]
 deku.category = ["menu"]
 deku.settings = {}
-deku.description = "Menampilkan Allmenu"
+deku.description = "menampilkan allmenu"
 deku.loading = true
 
 module.exports = deku
