@@ -108,7 +108,7 @@ ${list.command
 
         m.reply({
             video: {
-                url: "https://files.catbox.moe/f1l5ij.mp4"
+                url: "https://files.catbox.moe/t9j426.mp4"
             },
             caption: caption,
             gifPlayback: true,
@@ -152,13 +152,13 @@ ${readmore}
 ${list.map((a) => `│    =〆 ${m.prefix + m.command} ${a}`).join("\n")}
 ⏤͟͟͞͞╳────────── .✦
 
-Kalau Error Bisa Hubungi Ke .owner gass`
+kalau error bisa hubungi ke .owner`
 
 
         let sections = [{
                 title: '<!> Informasi Bot',
                 rows: [{
-                        title: 'Script🗒️',
+                        title: 'script',
                         description: `Menampilkan pesan Script`,
                         id: `${m.prefix}sc`
                     },
@@ -168,12 +168,12 @@ Kalau Error Bisa Hubungi Ke .owner gass`
                         id: `${m.prefix}ping`
                     },
                     {
-                        title: 'Creator 👑',
+                        title: 'devoloper',
                         description: `Menampilkan pesan thank you to`,
                         id: `${m.prefix}owner`
                     },
                     {
-                        title: 'AllMenu📘',
+                        title: 'allmenu',
                         description: `Menampilkan pesan allmenu`,
                         id: `${m.prefix}allmenu`
                     },
@@ -219,7 +219,7 @@ Kalau Error Bisa Hubungi Ke .owner gass`
         ]
 
         let listMessage = {
-            title: 'Click Here⎙',
+            title: 'click here⎙',
             sections
         };
         m.reply({
@@ -249,7 +249,7 @@ Kalau Error Bisa Hubungi Ke .owner gass`
             }, {
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
-                    display_text: Func.Styles("Link Channel👤"),
+                    display_text: Func.Styles("link channel👤"),
                     url: config.wagc,
                     merchant_url: config.wagc
                 })
@@ -258,7 +258,7 @@ Kalau Error Bisa Hubungi Ke .owner gass`
 
         await m.reply({
             audio: {
-                url: "https://files.catbox.moe/ujx8u9.m4a"
+                url: "https://files.catbox.moe/bwrea9.mp3"
             },
             mimetype: 'audio/mpeg',
             ptt: true
@@ -270,7 +270,7 @@ deku.command = "menu"
 deku.alias = ["leogg", "dekugg", "dekugz", "help"]
 deku.category = ["main"]
 deku.settings = {}
-deku.description = "Memunculkan menu"
+deku.description = "memunculkan menu"
 deku.loading = true
 
 module.exports = deku
